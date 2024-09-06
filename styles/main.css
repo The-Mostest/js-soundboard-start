@@ -1,0 +1,52 @@
+
+body {
+    font-family: helvetica;
+    background-color: #494953;
+
+}
+
+
+#head {
+   
+    margin: auto;
+    display:flex ;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#text {
+    display:flex ;
+    margin: 50px auto;
+}
+
+button {
+    display: flex;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 10px 500px;
+    background-image: url('../images/ilver.jpeg');
+    background-size: 400px;
+    font-weight: 100;
+    font-family: helvetica;
+    font-size: medium;
+
+}
+
+#container{
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto auto auto;
+    gap: 0px 0px;
+
+
+}
+
+.item {
+    
+    padding:  50px 50px;
+    background-color: #f0e1a6;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 100px;
+    
+}
