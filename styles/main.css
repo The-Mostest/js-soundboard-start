@@ -37,9 +37,11 @@ button {
     margin: auto;
     grid-template-columns: auto auto auto auto;
     gap: 0px 0px;
-
-
+    
 }
+
+
+
 
 .item {
     
@@ -49,4 +51,12 @@ button {
     border: 5px solid black;
     border-radius: 100px;
     
+}
+.item:hover {
+    background-image: url('../images/head.gif');
+    color: white;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }

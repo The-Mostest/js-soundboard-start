@@ -2,6 +2,7 @@
 const wordsEl = document.querySelectorAll('.item');
 const divWordsEl = document.querySelector('#container');
 const buttonEl = document.querySelector('#bigButton');
+const allWords = document.querySelectorAll('.item');
 
 // console.log(wordsEl);
 
@@ -20,7 +21,7 @@ divWordsEl.addEventListener('click', (evt) => {
 
 
 
-//button
+// button
 bigButton.onclick = function () {
     window.location.href = 'https://www.youtube.com/watch?v=xvFZjo5PgG0';}
 bigButton.addEventListener('mouseover', () => {
@@ -31,3 +32,6 @@ bigButton.addEventListener('mouseout', () => {
     bigButton.style.color = '';
 })
     });
+
+
+
